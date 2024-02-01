@@ -46,7 +46,7 @@ airflow trigger_dag calculate_metrics
 ## Create Daily Backup
 1. Run the following DAG in Apache Airflow:
 
-    ```bash
+ ```bash
 airflow trigger_dag create_backup
  ```
 ## Notes
