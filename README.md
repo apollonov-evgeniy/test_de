@@ -9,7 +9,8 @@ weather_data_project/
 │ ├── load_weather_data_dag.py
 │ ├── calculate_metrics_dag.py
 │ └── backup_dag.py
-├── scripts/
+├── scripts
+│ ├─ fetch_and_transform_weather_data.ipynb
 │ └── create_tables.py
 ├── README.md
 └── requirements.txt
@@ -29,6 +30,12 @@ weather_data_project/
 2.   Set up your PostgreSQL database and update the connection string in DAGs accordingly.
 
 # Usage
+
+## Run Jupyter Notebook:
+```bash
+jupyter notebook fetch_and_transform_weather_data.ipynb
+```
+Open the notebook and execute each cell to fetch and transform weather data.
 ## Load Weather Data
 1. Run the following DAG in Apache Airflow:
 
