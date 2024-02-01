@@ -31,15 +31,24 @@ weather_data_project/
 # Usage
 ## Load Weather Data
 1. Run the following DAG in Apache Airflow:
+
+ ```bash
 airflow trigger_dag load_weather_data
+ ```
 
 ## Calculate Metrics
 1. Run the following DAG in Apache Airflow:
+
+ ```bash
 airflow trigger_dag calculate_metrics
+ ```
 
 ## Create Daily Backup
 1. Run the following DAG in Apache Airflow:
+
+    ```bash
 airflow trigger_dag create_backup
+ ```
 ## Notes
 Make sure to set up appropriate PostgreSQL connection strings in DAGs.
 Adjust schedule intervals and other configurations in DAGs according to your requirements. 
