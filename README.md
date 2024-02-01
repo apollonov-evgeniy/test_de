@@ -2,6 +2,8 @@
 
 This project includes Apache Airflow DAGs for loading weather data, calculating metrics, and creating daily backups of a PostgreSQL database.
 
+### Shared link for /weather_data.csv: https://yadi.sk/d/ZdaGdtyXRL3qZQ
+
 ## Project Structure
  ```bash
 weather_data_project/
