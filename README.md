@@ -24,7 +24,8 @@ weather_data_project/
 
 1.    Install dependencies:
    ```bash
-pip install -r requirements.txt
+   pip install -r requirements.txt
+
 2.   Set up your PostgreSQL database and update the connection string in DAGs accordingly.
 
 # Usage
