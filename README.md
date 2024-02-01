@@ -3,7 +3,7 @@
 This project includes Apache Airflow DAGs for loading weather data, calculating metrics, and creating daily backups of a PostgreSQL database.
 
 ## Project Structure
-
+ ```bash
 weather_data_project/
 ├── dags/
 │ ├── load_weather_data_dag.py
@@ -13,7 +13,7 @@ weather_data_project/
 │ └── create_tables.py
 ├── README.md
 └── requirements.txt
-
+ ```
 ## Installation
 
 1. Clone the repository:
